@@ -1,0 +1,14 @@
+Descriptor,Model,Mean_Score,Std,Task,Metric
+All4FP+CleanDesc,XGBoost,0.7770454839398632,0.009904852027018988,Classification,Balanced Accuracy
+MACCS only,SVM,0.7768814402225718,0.02597505299246126,Classification,Balanced Accuracy
+All4FP+CleanDesc,XGB (Optuna),0.7749452299886083,0.0,Classification,Balanced Accuracy
+All4FP+CleanDesc,ExtraTrees (Optuna),0.7664425086944077,0.0,Classification,Balanced Accuracy
+Morgan+MACCS+Desc,ExtraTrees,0.7535352106444749,0.011449043493073236,Classification,Balanced Accuracy
+Morgan+MACCS+Desc,HistGradBoost,0.7360369101116604,0.016076931815899736,Classification,Balanced Accuracy
+All4FP+CleanDesc,MLP,0.7306976892416274,0.015063872487125218,Classification,Balanced Accuracy
+MACCS only,KNN,0.7217661831994324,0.013949665531375041,Classification,Balanced Accuracy
+All4FP+CleanDesc,XGB (Optuna),0.5491922783133194,0.0,Regression,R2
+All4FP+CleanDesc,XGBoost,0.535414709459092,0.015829374909364254,Regression,R2
+MACCS only,SVM,0.46946084017780726,0.021127816674999397,Regression,R2
+MACCS only,KNN,0.4446806699805352,0.01669502899253606,Regression,R2
+MACCS only,MLP,0.4098263248911607,0.03659283771877454,Regression,R2
